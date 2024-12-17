@@ -1,0 +1,9 @@
+1. run the following command to convert proto files to python
+	
+	cd protobuf_test/
+	protoc -I=proto_files --python_out=generated --experimental_allow_proto3_optional proto_files/*.proto
+
+	The generated files are saved to the /generated folder
+
+2. Implement a test script
+3. Run it
